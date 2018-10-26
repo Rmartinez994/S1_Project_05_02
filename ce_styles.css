@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 2
+   
+   Style Sheet for Costume Expressions Front Page
+   Author: Rafael Martinez 
+   Date: 10/26/18   
+   
+   Filename: ce_styles.css
+*/
+
+
+/* Window and Body Styles */
+html {
+    background-color: rgb(101, 101, 101);
+}
+
+/* What this line of code does is make the background color of the webpage grey.*/
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 320px;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* What these lines of code do is make the body of the webpage background color white. But also it sets the the body to a max width of 960px and a min of 320px. It also places the body in the center of the webpage. */
+
+/* Body Header Styles */
+body header {
+    background-color: rgb(191, 68, 70);
+    height: 40px;
+}
+
+/* What these lines of code did was put a header to the body and also set the height and color. */
+body header nav ul li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+body header nav a:visited,
+body header nav a:link {
+    color: rgb(51, 51, 51);
+    font-size: 0.9em;
+}
+
+body header nav a:active,
+body header nav a:hover {
+    color: rgb(255, 211, 211);
+}
+
+/* What these lines of code do is make the hyperlink display in the body header horizontally. But also it make the hyperlink color black, but when you hover over them it will change the color to a light peach color. */
+
+/* DIV Container Styles */
+div#container {
+    padding: 0px 8px 8px 0px;
+}
+
+div.cell a {
+    display: block;
+    width: 100%;
+    padding: 8px 0px 0px 8px;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    text-align: right;
+    color: rgb(143, 33, 36);
+    font-size: 2vmin;
+}
+
+/* What these lines of code do is make the footer of the page go to the bottom right hand corner of the page and also changes it text color to a dark red. */
